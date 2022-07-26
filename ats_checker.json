@@ -1,0 +1,18 @@
+{
+  "serial" : "com4",
+
+  "check_points" : [
+    {
+      "cmd" : "ATSS=START",
+      "answers" : [
+        "[ATSS]ATS:START"
+      ]
+    },
+    {
+      "cmd" : "ATSS=STOP",
+      "answers" : [
+        "[ATSS]ATS:STOP"
+      ]
+    }
+  ]
+}
